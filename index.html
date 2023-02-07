@@ -23,11 +23,55 @@
             <li>Royal Challengers Bangalore</li>
             <li>Sunrisers Hyderabad</li>
         </ul>
-        <a href="https://github.com/44-563-Web-Apps-S23/44563-webapps-assignment-3-SaiBalaji2001/blob/main/aboutme.html">Click here to open aboutme</a>
+        <a href="aboutme.html">Click here to open aboutme</a>
         <hr>
         <h2>This Section is for Tables</h2>
         <p>The below table i have written represent about the countries i would like recommed you for vaccation and In this table you can see what are 
             the countries i have recommeded and you can also know reason why i recommed this countries and finally you can also know duration of my vaccation</p>
-        
+        <table border = "1">
+            <tr>
+                <th> Name of the Country </th>
+                <th> Reason </th>
+                <th> Days Spend</th>
+            </tr>
+            <tr>
+                <td> United States </td>
+                <td> Hisotrical landmarks and there are wonderful places to explore </td>
+                <td> 60 </td>
+            </tr>
+            <tr>
+                <td> India </td>
+                <td> Rich in culture and tradition we should know </td>
+                <td> 90 </td>
+            </tr>
+            <tr>
+                <td> Dubai </td>
+                <td> Advanced technology and development we should see and place to relax more </td>
+                <td> 30 </td>
+            </tr>
+            <tr>
+                <td> France </td>
+                <td> There are world-class art and architecture we should see and there are beautiful places we should explore </td>
+                <td>  60 </td>
+            </tr>
+            <tr>
+                <td> Ukraine </td>
+                <td> There are Wonderful landmarks we should visit </td>
+                <td> 30 </td>
+            </tr>
+            </table>
+            <hr>
+            <h2>This Section is for Code Display</h2>
+            <blockquote>How do you strip the unit from any number in SASS?</blockquote>
+            <a href="https://stackoverflow.com/questions/12328259/how-do-you-strip-the-unit-from-any-number-in-sass">Click here for more information</a>
+            <pre>
+                @function strip-unit($number) {
+                    @if type-of($number) == 'number' and not unitless($number) {
+                      @return $number / ($number * 0 + 1);
+                    }
+                  
+                    @return $number;
+                  }
+            </pre>
     </body>
 </html>
